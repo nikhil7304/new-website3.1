@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #4b1908;
+    color: white;
+}
+a{
+    color: white;
+}
+#hero{
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/932577/pexels-photo-932577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position:center;
+    background-size: cover;
+}
+#hero h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color:#f9472b;
+}
+#hero h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f0146b;
+}
+.circle{
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;  
+}
+#about h1{
+    font-size: 3rem;
+}
+footer{
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ @media screen and (max-width:426px) {
+    a{
+        display: none;
+    }
+    
+    #hero h1{
+        font-size: 3rem;
+    }
+    #hero h2{
+        font: size 2rem; ;
+    }
+    
+ }
+
+    
