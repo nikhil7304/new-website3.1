@@ -39,13 +39,13 @@ i {
 #hero h2 {
     font-size: 3rem;
     font-weight: bold;
-    color: #f0146b;
+    color:#0e165f;
 }
 
 .circle {
     border-radius: 50%;
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
 }
 
 #about h1 {
@@ -62,6 +62,9 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+   #nav h1{
+    padding: 0.8rem;
+   }
     .right {
         display: none;
     }
@@ -96,10 +99,16 @@ footer {
 
     #hero h1 {
         font-size: 3rem;
+        text-align: center;
     }
 
     #hero h2 {
-        font: size 2rem;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 2rem;
     }
-
+    #hero .btn{
+        margin-top: 3rem;
+    }
+    
 }
